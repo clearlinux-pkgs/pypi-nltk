@@ -1,5 +1,5 @@
 PKG_NAME := pypi-nltk
-URL = https://files.pythonhosted.org/packages/b4/e0/840a250e5f85c480389c44d4058c7888b0c9f5f5333b353c77782a8a8e23/nltk-3.7.zip
+URL = https://files.pythonhosted.org/packages/5a/79/ddce5929c47a7bd8be7127a763eab4d55ab0236ecb53478ba8acfc9a1ee2/nltk-3.8.zip
 ARCHIVES = 
 
 include ../common/Makefile.common
