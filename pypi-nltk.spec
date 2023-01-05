@@ -4,7 +4,7 @@
 #
 Name     : pypi-nltk
 Version  : 3.8.1
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/57/49/51af17a2b0d850578d0022408802aa452644d40281a6c6e82f7cb0235ddb/nltk-3.8.1.zip
 Source0  : https://files.pythonhosted.org/packages/57/49/51af17a2b0d850578d0022408802aa452644d40281a6c6e82f7cb0235ddb/nltk-3.8.1.zip
 Summary  : Natural Language Toolkit
