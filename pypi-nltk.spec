@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-nltk
-Version  : 3.8.2
-Release  : 17
-URL      : https://files.pythonhosted.org/packages/1f/36/7da24a90d9c765066be9508e59f4bb99402bad3557bdfd4a21bbe8196f1b/nltk-3.8.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/1f/36/7da24a90d9c765066be9508e59f4bb99402bad3557bdfd4a21bbe8196f1b/nltk-3.8.2.tar.gz
+Version  : 3.9
+Release  : 18
+URL      : https://files.pythonhosted.org/packages/e2/a5/d82ad17d8db0f0b562c885fed0d5757a79a5c1027fe78d4a076e9b362477/nltk-3.9.tar.gz
+Source0  : https://files.pythonhosted.org/packages/e2/a5/d82ad17d8db0f0b562c885fed0d5757a79a5c1027fe78d4a076e9b362477/nltk-3.9.tar.gz
 Summary  : Natural Language Toolkit
 Group    : Development/Tools
 License  : Apache-2.0
@@ -77,10 +77,10 @@ python3 components for the pypi-nltk package.
 
 
 %prep
-%setup -q -n nltk-3.8.2
-cd %{_builddir}/nltk-3.8.2
+%setup -q -n nltk-3.9
+cd %{_builddir}/nltk-3.9
 pushd ..
-cp -a nltk-3.8.2 buildavx2
+cp -a nltk-3.9 buildavx2
 popd
 
 %build
@@ -88,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1723477002
+export SOURCE_DATE_EPOCH=1723967226
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
